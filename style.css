@@ -2,6 +2,7 @@ body
 {
 	padding: 0;
 	margin: 0 ;
+	background-image: url('Mont-Roraima-Amerique-du-Sud-photo-12.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover ;
@@ -15,19 +16,35 @@ body
 	font-family: sans-serif;
 }
 
+h1
+{
+text-align: center;
+color: BLack;
+}
+
+h3
+{
+color:black;
+text-align:center;
+}
+
 #header
 {
 	margin: 0;
 	padding: 20px;
-	background: #ccc;
+	background: Black;
 	height:50px;
-	background-image: url('haut.jpg');
 	background-repeat: no-repeat;
 	background-size: cover ;
 	background-position:center; 
+	color: White;
 }
 
-#header h1 { margin: 0; }
+#header h1 
+{ 
+margin: auto;
+text-align : center;
+}
 
 #navigation
 {
@@ -62,23 +79,24 @@ body
 
 #edito
 {
-	height: 400px;
+	height: 200px;
 	float: left;
 	padding: 0%;
 	margin: 1%;
-	width: 64%;
-	background-color: #f4fcff;
+	width: 98%;
+	background-color: #FFFFFF;
 	border: 1px solid #999999;
 	-webkit-border-radius: 25px 0px 25px 0px;
 	border-radius: 25px 0px;
 	-webkit-box-shadow: 5px 3px 3px #0a182e;
 	box-shadow: 5px 3px 3px #0a182e;
-	opacity: 0.8;
+	opacity: 0.6;
+	color: #008A1E;
 }
 
 #edito h2
 {
-	color: #000;
+	color: Black;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -92,13 +110,19 @@ div.element
 	overflow-y: scroll;
 	margin: 1%;
 	padding: 0%;
-	background-color: #f4fcff;
+	background-color: #FFFFFF;
 	border: 1px solid #999999;
 	-webkit-border-radius: 25px 0px 25px 0px;
 	border-radius: 25px 0px;
 	-webkit-box-shadow: 5px 3px 3px #0a182e;
 	box-shadow: 5px 3px 3px #0a182e;
-	opacity: 0.8;
+	opacity: 0.6;
+	color: #008A1E;
+}
+
+ h2
+{
+color:Black;
 }
 
 div.element img
@@ -107,13 +131,7 @@ div.element img
 	float: right;
 	width: 40%;
 	margin: 5%;
-	border: 1px solid #000;
-	padding: 5px 5px 20px 5px;
-	transform:rotate(7deg);
-	-ms-transform:rotate(7deg); /* IE 9 */
-	-moz-transform:rotate(7deg); /* Firefox */
-	-webkit-transform:rotate(7deg); /* Safari and Chrome */
-	-o-transform:rotate(7deg); /* Opera */
+	
 }
 
 p
@@ -133,10 +151,10 @@ h2,h3
 	background: #ccc;
 	text-align: left;
 	font-weight: bold;
-	padding: 20px;
+	padding: 10px;
 	height: 1%;
-	background-image: url('bas.jpg');
 	background-repeat: no-repeat;
 	background-size: cover ;
 	background-position:center; 
+	opacity: 0.6;
 }
